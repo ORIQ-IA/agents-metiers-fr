@@ -95,6 +95,39 @@ Ce ne sont pas des agents de code. Ils portent de la connaissance métier, pas d
 
 Ils sont écrits pour le contexte français : vocabulaire, organisation des entreprises, droit applicable.
 
+## Questions fréquentes
+
+**Avec quels outils est-ce que ça marche ?**
+Claude Code lit `~/.claude/agents/`. Cursor, Codex, Gemini CLI, Aider, Windsurf et les autres agents qui suivent la convention `AGENTS.md` lisent des fichiers Markdown avec en-tête YAML, c'est exactement ce format. Aucune dépendance, aucune clé API, rien à installer d'autre.
+
+**Est-ce que ça remplace mon `CLAUDE.md` ou mon `AGENTS.md` ?**
+Non, c'est complémentaire. Votre fichier de projet décrit votre code. Ces agents apportent la connaissance d'un métier ou d'un secteur, qui ne se déduit d'aucun dépôt.
+
+**À quoi ça sert concrètement ?**
+À concevoir ou évaluer un projet IA pour un métier que vous ne connaissez pas de l'intérieur. Par exemple : que faut-il savoir avant de proposer un assistant documentaire à un cabinet d'expertise comptable, quelles contraintes déontologiques pèsent sur une étude notariale, ce qui déclenche vraiment une décision dans une direction des achats, pourquoi une DSI bloque un projet, quelles obligations s'appliquent aux données de santé.
+
+**Mon métier n'est pas couvert.**
+Ouvrez une issue en décrivant le métier et ses frictions réelles. Les contributions de praticiens sont ce qui fait la valeur de ce dépôt.
+
+**Est-ce utilisable hors de France ?**
+La structure oui, le contenu en partie seulement. Les contraintes réglementaires, les intitulés de poste et l'organisation décrite sont français. Le RGPD et le règlement européen sur l'IA s'appliquent dans toute l'Union, le reste est à adapter.
+
+**Quelle licence ?**
+MIT. Usage commercial autorisé, modification autorisée, attribution demandée.
+
+## Autres publications d'Oriq
+
+Les trois dépôts de l'organisation [ORIQ-IA](https://github.com/ORIQ-IA) sont publics et sous licence libre.
+
+| Dépôt | Contenu |
+|---|---|
+| [referentiel-ia-act](https://github.com/ORIQ-IA/referentiel-ia-act) | Référentiel daté et versionné du règlement européen sur l'IA. Échéances, sanctions et obligations, chacune avec son article et sa source. JSON, CC BY 4.0 |
+| [observatoire-ia-occitanie](https://github.com/ORIQ-IA/observatoire-ia-occitanie) | Relevé des offres d'emploi liées à l'IA en Occitanie, rapporté à la population d'entreprises. 7 jeux en CSV, CC BY 4.0 |
+
+## Citer ce dépôt
+
+Un fichier [CITATION.cff](CITATION.cff) est fourni. GitHub affiche un bouton « Cite this repository » en haut à droite, et les outils bibliographiques le lisent directement.
+
 ## Contribuer
 
 Une correction de terrain vaut mieux qu'un ajout théorique. Si un agent décrit mal votre métier, c'est une issue utile. Voir [CONTRIBUTING.md](CONTRIBUTING.md).

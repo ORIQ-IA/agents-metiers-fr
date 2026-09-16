@@ -1,0 +1,52 @@
+# Comment citer les agents metiers FR d'Oriq.
+#
+# POURQUOI CE FICHIER. Un ensemble de connaissances qui vit a une seule adresse se
+# perd des que l'adresse bouge, et ne se cite pas. Ce fichier est le format standard
+# de citation logicielle et de donnees (Citation File Format 1.2.0) : GitHub l'affiche
+# nativement avec un bouton « Cite this repository », Zenodo le lit pour pre-remplir
+# un depot, et les outils de gestion bibliographique le comprennent.
+#
+# Il est le seul endroit ou la facon de citer est ecrite pour une machine. La version
+# ci-dessous suit les publications du depot.
+cff-version: 1.2.0
+message: "Si vous utilisez ces agents, citez-les comme ci-dessous."
+title: "Agents metiers FR"
+abstract: >-
+  Collection de 28 agents d'intelligence artificielle documentant les metiers et
+  les secteurs d'activite francais, destinee aux assistants de code et aux agents
+  autonomes qui lisent la convention AGENTS.md, dont Claude Code, Cursor et Codex.
+  Elle couvre douze secteurs (batiment et travaux publics, collectivites
+  territoriales, expertise comptable, formation, immobilier, industrie, mutuelle et
+  assurance, notariat et professions juridiques, commerce et vente en ligne, sante
+  et medico-social, services aux entreprises, transport et logistique), dix
+  fonctions d'entreprise (achats, commercial, direction generale, systemes
+  d'information, finance, juridique, marketing, production et exploitation,
+  ressources humaines, service client) et six domaines transverses (recherche
+  augmentee, cybersecurite de l'IA, ingenierie de la donnee, integration, RGPD,
+  interfaces vocales). Chaque agent decrit l'organisation reelle du metier, ses
+  frictions, ce qui declenche une decision, ses contraintes reglementaires et
+  deontologiques, les cas d'usage qui apportent un gain mesurable, et les erreurs a
+  ne pas commettre. Ecrit en francais, pour le contexte reglementaire francais.
+type: software
+version: "1.0.0"
+date-released: "2026-09-16"
+license: MIT
+url: "https://github.com/ORIQ-IA/agents-metiers-fr"
+repository-code: "https://github.com/ORIQ-IA/agents-metiers-fr"
+authors:
+  - name: "Oriq"
+    website: "https://oriq.fr/"
+    city: "Toulouse"
+    country: FR
+    email: "contact@oriq.fr"
+keywords:
+  - agents IA
+  - intelligence artificielle
+  - metiers
+  - secteurs d'activite
+  - France
+  - Claude Code
+  - AGENTS.md
+  - ingenierie de prompt
+  - cas d'usage IA
+  - conformite
