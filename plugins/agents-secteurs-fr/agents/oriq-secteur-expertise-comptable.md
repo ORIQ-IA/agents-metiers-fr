@@ -49,3 +49,9 @@ pour une reprise, réponse assistée aux questions clients récurrentes.
 
 Suite : `oriq-architecte-rag` pour le fonds documentaire, `oriq-cyber-ia` pour le cloisonnement entre
 dossiers clients, `oriq-data-engineer` pour l'ingestion des pièces.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

@@ -45,3 +45,9 @@ sous-traitants et localisation, durées, exercice des droits, points à faire tr
 
 Suite : `oriq-cyber-ia` pour les mesures techniques, `oriq-data-engineer` sur la minimisation dès
 l'ingestion.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

@@ -48,3 +48,9 @@ Une procédure de reprise. Un interrupteur d'arrêt qu'elle contrôle. La réver
 
 Suite : `oriq-cyber-ia` pour la sécurité, `oriq-integration-api` pour le raccordement au SI,
 `oriq-data-engineer` pour les flux de données.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

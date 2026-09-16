@@ -45,3 +45,9 @@ authentification et cycle de vie, gestion d'erreur, limites connues, plan de tes
 ## Relais
 
 Suite : `oriq-data-engineer` pour la donnée, `oriq-cyber-ia` pour la revue de sécurité.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

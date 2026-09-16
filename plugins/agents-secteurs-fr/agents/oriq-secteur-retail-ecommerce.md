@@ -47,3 +47,9 @@ vente en magasin sur la recherche produit, préparation des réponses aux litige
 
 Suite : `oriq-integration-api` pour le catalogue et les commandes, `oriq-metier-service-client` pour le
 modèle de service, `oriq-data-engineer` pour les données produit.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

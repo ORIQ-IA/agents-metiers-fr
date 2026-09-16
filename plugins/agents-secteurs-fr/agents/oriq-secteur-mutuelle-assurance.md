@@ -50,3 +50,9 @@ tri des boîtes génériques, préparation de rendez-vous, rédaction d'attestat
 
 Suite : `oriq-architecte-rag` pour les grilles de garanties, `oriq-rgpd` sur les données de santé,
 `oriq-cyber-ia` pour le cloisonnement.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

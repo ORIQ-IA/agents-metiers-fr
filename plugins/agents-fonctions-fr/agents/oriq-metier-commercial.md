@@ -46,3 +46,9 @@ soirée, pas ce qui améliore le reporting de son directeur. Concevoir pour lui,
 
 Suite : `oriq-voix-ia` pour la saisie parlée, `oriq-architecte-rag` pour les documents tarifaires,
 `oriq-integration-api` pour le raccordement au CRM.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

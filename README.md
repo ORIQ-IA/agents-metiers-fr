@@ -172,7 +172,22 @@ Les principes communs aux 28 agents sont dans [CHARTE.md](CHARTE.md).
 
 ## Origine
 
-Ces agents sont extraits de l'outillage de production d'[Oriq](https://oriq.fr), agence IA française. Ils sont utilisés en vrai sur des missions, pas écrits pour la vitrine.
+Ces agents sont extraits de l'outillage de production d'[**Oriq**](https://oriq.fr), agence IA française basée à Toulouse. Ils sont utilisés en vrai sur des missions, pas écrits pour la vitrine.
+
+### Ce qui peut vous servir tout de suite, gratuitement
+
+**[Diagnostic IA Act](https://oriq.fr/ia-act/)**
+Savoir en quelques minutes si le règlement européen sur l'intelligence artificielle s'applique à votre système, ce que vous devez faire et à quelle date. Le verdict est calculé par un moteur de règles adossé à un référentiel daté, pas rédigé par un modèle : il ne peut pas se tromper de date. Sans inscription.
+
+**[Sanctions et calendrier IA Act](https://oriq.fr/ia-act/sanctions-et-calendrier/)**
+Les montants de l'article 99 et le calendrier complet d'application, à jour du règlement (UE) 2026/1744 qui a reporté certaines échéances. Beaucoup de sources annoncent encore les anciennes dates.
+
+**[Recherche dans vos documents](https://rag.oriq.fr)**
+Ce que fait le produit Oriq : retrouver une information dans ses propres documents, avec la source exacte.
+
+### Vous accompagner
+
+Si un des cas d'usage décrits dans ces agents correspond à un besoin réel chez vous, c'est exactement le métier d'Oriq. Écrivez à contact@oriq.fr ou passez par [oriq.fr](https://oriq.fr).
 
 ## Licence
 

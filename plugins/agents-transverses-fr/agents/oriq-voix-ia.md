@@ -51,3 +51,9 @@ de correction, états, points de test en conditions réelles.
 
 Suite : `oriq-rgpd` pour les enregistrements, `oriq-architecte-rag` si la voix interroge un fonds
 documentaire.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

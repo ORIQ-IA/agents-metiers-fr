@@ -47,3 +47,9 @@ Une aide à la lecture n'est pas un tri automatisé, la frontière doit être é
 
 Suite : `oriq-rgpd` sur les données de candidats et de salariés, `oriq-cyber-ia` pour le cloisonnement
 des dossiers.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

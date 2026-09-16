@@ -47,3 +47,9 @@ corrigés, suivi et relance des stagiaires, réponse aux consultations.
 ## Relais
 
 Suite : `oriq-rgpd` sur les données de stagiaires, `oriq-architecte-rag` pour les supports pédagogiques.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

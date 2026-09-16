@@ -48,3 +48,9 @@ connues, plan de vérification.
 
 Suite : `oriq-data-engineer` pour l'ingestion, `oriq-rgpd` sur la conservation, `oriq-cyber-ia` sur le
 contrôle d'accès à la récupération.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

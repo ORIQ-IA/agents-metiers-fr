@@ -46,3 +46,9 @@ utilisable dans cette fonction.
 
 Suite : `oriq-architecte-rag` pour le patrimoine contractuel, `oriq-cyber-ia` pour le cloisonnement,
 `oriq-rgpd` sur les durées de conservation.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

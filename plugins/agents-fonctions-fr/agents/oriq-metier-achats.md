@@ -44,3 +44,9 @@ Le temps de dépouillement, qui est massif et sans valeur ajoutée. Un acheteur 
 ## Relais
 
 Suite : `oriq-data-engineer` pour l'extraction, `oriq-architecte-rag` pour les contrats fournisseurs.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

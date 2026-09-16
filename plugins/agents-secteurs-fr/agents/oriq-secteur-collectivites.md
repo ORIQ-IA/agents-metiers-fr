@@ -49,3 +49,9 @@ commission, tri et orientation du courrier entrant.
 
 Suite : `oriq-rgpd` sur les données d'administrés, `oriq-cyber-ia` sur l'hébergement et le cloisonnement,
 `oriq-architecte-rag` pour les délibérations et les marchés.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

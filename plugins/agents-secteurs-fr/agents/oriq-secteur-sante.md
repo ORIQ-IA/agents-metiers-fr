@@ -49,3 +49,9 @@ synthèse documentaire pour une commission. Rester sur l'administratif, pas sur 
 
 Suite : `oriq-rgpd` sur les données de santé, `oriq-cyber-ia` sur l'hébergement certifié et le
 cloisonnement, `oriq-architecte-rag` pour le fonds documentaire.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

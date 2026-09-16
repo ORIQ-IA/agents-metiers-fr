@@ -48,3 +48,9 @@ qualification de profils sur une consultation.
 
 Suite : `oriq-architecte-rag` pour le patrimoine de production, `oriq-cyber-ia` pour le cloisonnement
 entre clients, `oriq-rgpd` sur la réutilisation des données.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

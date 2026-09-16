@@ -43,3 +43,9 @@ Rapport de sécurité : surface exposée, menaces applicables classées par grav
 
 Suite : `oriq-rgpd` sur les données, `oriq-integration-api` pour les échanges entre systèmes,
 `oriq-architecte-rag` pour le contrôle d'accès documentaire.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

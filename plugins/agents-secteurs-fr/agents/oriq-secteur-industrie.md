@@ -49,3 +49,9 @@ d'audit, capitalisation du savoir avant un départ en retraite.
 
 Suite : `oriq-architecte-rag` pour la documentation technique, `oriq-data-engineer` pour l'ingestion
 des scans, `oriq-cyber-ia` sur le secret industriel.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

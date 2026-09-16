@@ -47,3 +47,9 @@ d'assemblée, extraction des données de diagnostics, suivi des échéances de v
 
 Suite : `oriq-architecte-rag` pour le fonds documentaire, `oriq-data-engineer` pour les scans,
 `oriq-rgpd` sur les données d'occupants.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

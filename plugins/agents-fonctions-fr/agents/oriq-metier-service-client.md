@@ -45,3 +45,9 @@ qualité et le délai sans dégrader la relation. L'escalade vers l'humain doit 
 
 Suite : `oriq-architecte-rag` pour les procédures, `oriq-integration-api` pour l'outil de ticketing,
 `oriq-voix-ia` pour le canal téléphonique.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

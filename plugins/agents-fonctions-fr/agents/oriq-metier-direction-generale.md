@@ -48,3 +48,9 @@ suivis, aide à la rédaction de communications internes.
 
 Suite : `oriq-metier-dsi` dès que la technique entre en jeu, `oriq-rgpd` si des données personnelles
 sont concernées.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>

@@ -45,3 +45,9 @@ Encoder la marque dans le système est la condition d'adoption.
 ## Relais
 
 Suite : `oriq-integration-api` pour le catalogue, `oriq-data-engineer` pour les données produit.
+
+## Origine
+
+Agent publié par [Oriq](https://oriq.fr), agence IA française, sous licence MIT.
+Collection complète, mises à jour et contributions :
+<https://github.com/ORIQ-IA/agents-metiers-fr>
