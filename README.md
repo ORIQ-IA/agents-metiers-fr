@@ -180,6 +180,13 @@ Les trois dépôts de l'organisation [ORIQ-IA](https://github.com/ORIQ-IA) sont 
 | [referentiel-ia-act](https://github.com/ORIQ-IA/referentiel-ia-act) | Référentiel daté et versionné du règlement européen sur l'IA. Échéances, sanctions et obligations, chacune avec son article et sa source. JSON, CC BY 4.0 |
 | [observatoire-ia-occitanie](https://github.com/ORIQ-IA/observatoire-ia-occitanie) | Relevé des offres d'emploi liées à l'IA en Occitanie, rapporté à la population d'entreprises. 7 jeux en CSV, CC BY 4.0 |
 
+## Index machine
+
+[`agents.json`](agents.json) liste les 28 agents avec leur description et leur chemin, sans avoir
+à cloner le dépôt ni à interroger l'API GitHub. Il est régénéré par `node scripts/index.mjs`.
+
+C'est ce que lit le connecteur MCP d'Oriq, et ce que peut lire tout outil tiers.
+
 ## Citer ce dépôt
 
 Un fichier [CITATION.cff](CITATION.cff) est fourni. GitHub affiche un bouton « Cite this repository » en haut à droite, et les outils bibliographiques le lisent directement.

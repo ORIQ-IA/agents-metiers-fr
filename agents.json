@@ -1,0 +1,211 @@
+{
+  "nom": "Agents métiers FR",
+  "version": "1.0.0",
+  "editeur": {
+    "nom": "Oriq",
+    "site": "https://oriq.fr",
+    "courriel": "contact@oriq.fr"
+  },
+  "depot": "https://github.com/ORIQ-IA/agents-metiers-fr",
+  "licence": "MIT",
+  "citation": "Oriq, agents métiers FR, version 1.0.0, https://github.com/ORIQ-IA/agents-metiers-fr",
+  "total": 28,
+  "agents": [
+    {
+      "nom": "oriq-secteur-btp",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Bâtiment, travaux publics et artisanat : organisation de chantier, devis, sous-traitance, frictions et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-btp.md"
+    },
+    {
+      "nom": "oriq-secteur-collectivites",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Secteur public local : communes, EPCI, bailleurs, organismes territoriaux. Contraintes de la commande publique, frictions et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-collectivites.md"
+    },
+    {
+      "nom": "oriq-secteur-expertise-comptable",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Cabinets d'expertise comptable et d'audit : organisation, saisonnalité, contraintes déontologiques et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-expertise-comptable.md"
+    },
+    {
+      "nom": "oriq-secteur-formation-education",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Formation professionnelle et enseignement : organismes, certification qualité, ingénierie pédagogique et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-formation-education.md"
+    },
+    {
+      "nom": "oriq-secteur-immobilier",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Immobilier : transaction, gestion locative, syndic, promotion. Frictions documentaires, contraintes et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-immobilier.md"
+    },
+    {
+      "nom": "oriq-secteur-industrie",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Industrie et production : organisation, qualité, maintenance, documentation technique et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-industrie.md"
+    },
+    {
+      "nom": "oriq-secteur-mutuelle-assurance",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Mutuelles, assurance de personnes et protection sociale : métiers, vocabulaire, contraintes et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-mutuelle-assurance.md"
+    },
+    {
+      "nom": "oriq-secteur-notariat-juridique",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Notariat, avocats et professions juridiques : organisation, frictions documentaires, contraintes déontologiques et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-notariat-juridique.md"
+    },
+    {
+      "nom": "oriq-secteur-retail-ecommerce",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Commerce, distribution et vente en ligne : catalogue, service client, saisonnalité et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-retail-ecommerce.md"
+    },
+    {
+      "nom": "oriq-secteur-sante",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Santé et médico-social : établissements, cabinets, contraintes sur les données de santé, frictions administratives et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-sante.md"
+    },
+    {
+      "nom": "oriq-secteur-services-b2b",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Services aux entreprises : conseil, ingénierie, agences, sociétés de services numériques. Frictions et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-services-b2b.md"
+    },
+    {
+      "nom": "oriq-secteur-transport-logistique",
+      "genre": "secteur",
+      "plugin": "agents-secteurs-fr",
+      "description": "Transport, logistique et supply chain : exploitation, documents de transport, réglementation et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.",
+      "chemin": "plugins/agents-secteurs-fr/agents/oriq-secteur-transport-logistique.md"
+    },
+    {
+      "nom": "oriq-metier-achats",
+      "genre": "fonction",
+      "plugin": "agents-fonctions-fr",
+      "description": "Fonction achats et approvisionnement : sourcing, consultations, contrats fournisseurs et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.",
+      "chemin": "plugins/agents-fonctions-fr/agents/oriq-metier-achats.md"
+    },
+    {
+      "nom": "oriq-metier-commercial",
+      "genre": "fonction",
+      "plugin": "agents-fonctions-fr",
+      "description": "Fonction commerciale : quotidien d'un vendeur, frictions de saisie et de préparation, cas d'usage IA pour la vente. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.",
+      "chemin": "plugins/agents-fonctions-fr/agents/oriq-metier-commercial.md"
+    },
+    {
+      "nom": "oriq-metier-direction-generale",
+      "genre": "fonction",
+      "plugin": "agents-fonctions-fr",
+      "description": "Direction générale : préoccupations d'un dirigeant, langage, arbitrages et cas d'usage IA au niveau direction. Utiliser pour préparer un échange avec un dirigeant ou concevoir pour la direction.",
+      "chemin": "plugins/agents-fonctions-fr/agents/oriq-metier-direction-generale.md"
+    },
+    {
+      "nom": "oriq-metier-dsi",
+      "genre": "fonction",
+      "plugin": "agents-fonctions-fr",
+      "description": "Direction des systèmes d'information : objections, exigences de sécurité et conditions d'acceptation d'un projet IA. Utiliser dès qu'une direction technique entre dans la boucle.",
+      "chemin": "plugins/agents-fonctions-fr/agents/oriq-metier-dsi.md"
+    },
+    {
+      "nom": "oriq-metier-finance",
+      "genre": "fonction",
+      "plugin": "agents-fonctions-fr",
+      "description": "Finance et comptabilité : clôture, contrôle de gestion, facturation, recouvrement et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.",
+      "chemin": "plugins/agents-fonctions-fr/agents/oriq-metier-finance.md"
+    },
+    {
+      "nom": "oriq-metier-juridique",
+      "genre": "fonction",
+      "plugin": "agents-fonctions-fr",
+      "description": "Direction juridique interne : contrats, conformité, contentieux et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.",
+      "chemin": "plugins/agents-fonctions-fr/agents/oriq-metier-juridique.md"
+    },
+    {
+      "nom": "oriq-metier-marketing",
+      "genre": "fonction",
+      "plugin": "agents-fonctions-fr",
+      "description": "Direction marketing : organisation, production de contenu, mesure et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.",
+      "chemin": "plugins/agents-fonctions-fr/agents/oriq-metier-marketing.md"
+    },
+    {
+      "nom": "oriq-metier-production-ops",
+      "genre": "fonction",
+      "plugin": "agents-fonctions-fr",
+      "description": "Production et exploitation : planification, qualité, maintenance, terrain et cas d'usage IA en environnement opérationnel. Utiliser pour concevoir ou évaluer un système IA destiné à ces équipes.",
+      "chemin": "plugins/agents-fonctions-fr/agents/oriq-metier-production-ops.md"
+    },
+    {
+      "nom": "oriq-metier-rh",
+      "genre": "fonction",
+      "plugin": "agents-fonctions-fr",
+      "description": "Ressources humaines : recrutement, administration, formation, cas d'usage IA sous forte contrainte réglementaire. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.",
+      "chemin": "plugins/agents-fonctions-fr/agents/oriq-metier-rh.md"
+    },
+    {
+      "nom": "oriq-metier-service-client",
+      "genre": "fonction",
+      "plugin": "agents-fonctions-fr",
+      "description": "Service client et relation usager : organisation, volume, qualité de réponse et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.",
+      "chemin": "plugins/agents-fonctions-fr/agents/oriq-metier-service-client.md"
+    },
+    {
+      "nom": "oriq-architecte-rag",
+      "genre": "transverse",
+      "plugin": "agents-transverses-fr",
+      "description": "Systèmes de recherche augmentée : ingestion, découpage, embeddings, indexation, récupération hybride, reclassement et citation des sources. Utiliser pour concevoir, diagnostiquer ou améliorer une brique documentaire.",
+      "chemin": "plugins/agents-transverses-fr/agents/oriq-architecte-rag.md"
+    },
+    {
+      "nom": "oriq-cyber-ia",
+      "genre": "transverse",
+      "plugin": "agents-transverses-fr",
+      "description": "Cybersécurité appliquée à l'IA : injection par le contenu, fuite de données, contrôle d'accès, chaîne d'approvisionnement des modèles et durcissement. Utiliser pour sécuriser un système IA ou répondre à une exigence de sécurité.",
+      "chemin": "plugins/agents-transverses-fr/agents/oriq-cyber-ia.md"
+    },
+    {
+      "nom": "oriq-data-engineer",
+      "genre": "transverse",
+      "plugin": "agents-transverses-fr",
+      "description": "Ingénierie de la donnée : pipelines d'ingestion, qualité, modélisation et circulation, y compris les corpus documentaires. Utiliser dès qu'il faut collecter, transformer, fiabiliser ou modéliser de la donnée.",
+      "chemin": "plugins/agents-transverses-fr/agents/oriq-data-engineer.md"
+    },
+    {
+      "nom": "oriq-integration-api",
+      "genre": "transverse",
+      "plugin": "agents-transverses-fr",
+      "description": "Intégration et connecteurs : API, webhooks, authentification, synchronisation, gestion des limites et des pannes. Utiliser dès qu'il faut relier deux systèmes.",
+      "chemin": "plugins/agents-transverses-fr/agents/oriq-integration-api.md"
+    },
+    {
+      "nom": "oriq-rgpd",
+      "genre": "transverse",
+      "plugin": "agents-transverses-fr",
+      "description": "RGPD et protection des données : bases légales, minimisation, sous-traitance, registre, analyse d'impact et droits des personnes appliqués aux systèmes IA. Utiliser dès qu'une donnée personnelle entre dans un projet.",
+      "chemin": "plugins/agents-transverses-fr/agents/oriq-rgpd.md"
+    },
+    {
+      "nom": "oriq-voix-ia",
+      "genre": "transverse",
+      "plugin": "agents-transverses-fr",
+      "description": "Interfaces vocales : transcription, synthèse, interruption, correction et expérience de conversation parlée. Utiliser pour concevoir, corriger ou arbitrer une fonctionnalité vocale.",
+      "chemin": "plugins/agents-transverses-fr/agents/oriq-voix-ia.md"
+    }
+  ]
+}
