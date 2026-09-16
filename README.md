@@ -27,7 +27,7 @@ Chaque agent suit la même structure : l'organisation réelle du métier, les fr
 ## Installation
 
 ```bash
-git clone https://github.com/bricefpv-lab/agents-metiers-fr.git
+git clone https://github.com/ORIQ-IA/agents-metiers-fr.git
 cd agents-metiers-fr
 ./install.sh
 ```
