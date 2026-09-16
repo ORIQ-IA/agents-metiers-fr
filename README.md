@@ -1,6 +1,26 @@
-# Agents métiers FR
+<img src="assets/banniere.svg" alt="Agents métiers FR, par Oriq" width="100%">
 
-28 agents IA qui connaissent les métiers et les secteurs français. Pour Claude Code, Cursor, Codex et les autres.
+> **28 agents IA** qui connaissent les métiers et les secteurs français.
+> **12 secteurs**, **10 fonctions d'entreprise**, **6 domaines transverses**.
+> Écrits et utilisés en production par [**Oriq**](https://oriq.fr), agence IA française.
+
+[![Par Oriq](https://img.shields.io/badge/par-Oriq-0066FF?style=flat-square)](https://oriq.fr)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-natif-13233f?style=flat-square)](#2-avec-claude-code)
+[![Cursor · Codex · Gemini CLI](https://img.shields.io/badge/Cursor%20·%20Codex%20·%20Gemini%20CLI-compatible-13233f?style=flat-square)](#3-avec-un-autre-outil-ou-à-la-main)
+[![Sans installation](https://img.shields.io/badge/ou%20sans%20rien%20installer-copier--coller-13233f?style=flat-square)](#1-sans-rien-installer-dans-une-conversation)
+[![Licence MIT](https://img.shields.io/badge/licence-MIT-13233f?style=flat-square)](LICENSE)
+![En français](https://img.shields.io/badge/langue-français-13233f?style=flat-square)
+
+## Démarrage rapide
+
+```
+/plugin marketplace add ORIQ-IA/agents-metiers-fr
+/plugin install agents-secteurs-fr@oriq
+```
+
+Pas de Claude Code ? [Copiez le fichier de votre secteur dans une conversation](#1-sans-rien-installer-dans-une-conversation), ça marche aussi bien.
+
+## Pourquoi ces agents existent
 
 Un agent générique vous répondra que « l'IA peut automatiser la rédaction de vos actes ». Un notaire vous dira que ce n'est pas le sujet, que ce qui l'intéresse c'est de ne pas rater un délai, parce que sa responsabilité est engagée sur chaque acte.
 
