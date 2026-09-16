@@ -6,7 +6,7 @@
 
 [![Par Oriq](https://img.shields.io/badge/par-Oriq-0066FF?style=flat-square)](https://oriq.fr)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-natif-13233f?style=flat-square)](#2-avec-claude-code)
-[![Cursor · Codex · Gemini CLI](https://img.shields.io/badge/Cursor%20·%20Codex%20·%20Gemini%20CLI-compatible-13233f?style=flat-square)](#3-avec-un-autre-outil-ou-à-la-main)
+[![Cursor · Codex · Gemini CLI](https://img.shields.io/badge/Cursor%20·%20Codex%20·%20Gemini%20CLI-compatible-13233f?style=flat-square)](#4-avec-un-autre-outil-ou-à-la-main)
 [![Sans installation](https://img.shields.io/badge/ou%20sans%20rien%20installer-copier--coller-13233f?style=flat-square)](#1-sans-rien-installer-dans-une-conversation)
 [![Licence MIT](https://img.shields.io/badge/licence-MIT-13233f?style=flat-square)](LICENSE)
 ![En français](https://img.shields.io/badge/langue-français-13233f?style=flat-square)
@@ -78,7 +78,21 @@ Trois plugins, installez ceux qui vous servent :
 
 Les mises à jour arrivent ensuite toutes seules.
 
-### 3. Avec un autre outil, ou à la main
+### 3. Sans installer de fichier, par le connecteur Oriq
+
+Oriq publie un connecteur qui sert ces agents directement à votre assistant. Votre assistant va chercher le métier dont il a besoin, vous n'installez rien et vous n'avez rien à mettre à jour.
+
+Dans Claude : **Réglages**, section **Connecteurs**, **Ajouter un connecteur personnalisé**, puis cette adresse :
+
+```
+https://oriq-mcp.oriq.workers.dev
+```
+
+Un compte individuel suffit, aucun abonnement Team ou Enterprise n'est nécessaire. La même adresse fonctionne dans tout client compatible avec le Model Context Protocol.
+
+Le connecteur expose `lister_metiers_oriq` et `lire_connaissance_metier`, en lecture seule. Documentation complète : [oriq.fr/connecteur](https://oriq.fr/connecteur/).
+
+### 4. Avec un autre outil, ou à la main
 
 ```bash
 git clone https://github.com/ORIQ-IA/agents-metiers-fr.git

@@ -36,6 +36,9 @@ Ce plugin fait partie de la collection [agents-metiers-fr](https://github.com/OR
 aux côtés du [référentiel IA Act](https://github.com/ORIQ-IA/referentiel-ia-act) et de
 l'[Observatoire IA Occitanie](https://github.com/ORIQ-IA/observatoire-ia-occitanie).
 
+Ces agents sont aussi servis par le [connecteur Oriq](https://oriq.fr/connecteur/), à raccorder à
+votre assistant sans rien installer : `https://oriq-mcp.oriq.workers.dev`, un compte individuel suffit.
+
 Gratuit et sans inscription : le [diagnostic IA Act](https://oriq.fr/ia-act/) dit en quelques minutes
 si le règlement européen s'applique à votre système, ce que vous devez faire et à quelle date.
 
