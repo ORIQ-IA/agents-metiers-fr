@@ -1,0 +1,14 @@
+{
+  "name": "agents-fonctions-fr",
+  "version": "1.0.0",
+  "description": "Dix agents qui documentent les fonctions de l entreprise francaise : achats, commercial, direction generale, systemes d information, finance, juridique, marketing, production et exploitation, ressources humaines, service client. Utiles pour comprendre les preoccupations, le langage et les criteres de decision d un interlocuteur avant de concevoir quoi que ce soit pour lui.",
+  "author": {
+    "name": "Oriq",
+    "url": "https://oriq.fr"
+  },
+  "repository": "https://github.com/ORIQ-IA/agents-metiers-fr",
+  "homepage": "https://github.com/ORIQ-IA/agents-metiers-fr/tree/main/plugins/agents-fonctions-fr",
+  "license": "MIT",
+  "keywords": ["fonctions","entreprise","france","dsi","rh","finance","achats","direction"],
+  "agents": "./agents/"
+}

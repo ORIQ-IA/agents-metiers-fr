@@ -15,8 +15,9 @@ Reprenez la structure décrite dans [CHARTE.md](CHARTE.md). Un agent utile tient
 de lignes. Ce qui compte est la densité, pas la longueur : chaque phrase doit apprendre quelque
 chose qu'on ne trouve pas dans un article générique.
 
-Nommage : `oriq-secteur-<nom>.md` dans `agents/secteurs/`, `oriq-metier-<nom>.md` dans
-`agents/metiers/`.
+Nommage : `oriq-secteur-<nom>.md` dans `plugins/agents-secteurs-fr/agents/`,
+`oriq-metier-<nom>.md` dans `plugins/agents-fonctions-fr/agents/`. Un agent transverse va dans
+`plugins/agents-transverses-fr/agents/`.
 
 ## Ce qui sera refusé
 

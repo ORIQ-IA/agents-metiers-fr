@@ -1,0 +1,30 @@
+{
+  "name": "oriq",
+  "description": "Agents IA qui connaissent les metiers et les secteurs francais. Publie par Oriq, agence IA francaise. Trois plugins installables separement pour ne charger que ce dont on a besoin.",
+  "owner": {
+    "name": "Oriq",
+    "email": "contact@oriq.fr",
+    "url": "https://oriq.fr"
+  },
+  "metadata": {
+    "description": "28 agents documentant douze secteurs d activite, dix fonctions d entreprise et six domaines transverses, ecrits en francais pour le contexte reglementaire francais.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agents-secteurs-fr",
+      "source": "./plugins/agents-secteurs-fr",
+      "category": "domain-knowledge"
+    },
+    {
+      "name": "agents-fonctions-fr",
+      "source": "./plugins/agents-fonctions-fr",
+      "category": "domain-knowledge"
+    },
+    {
+      "name": "agents-transverses-fr",
+      "source": "./plugins/agents-transverses-fr",
+      "category": "domain-knowledge"
+    }
+  ]
+}

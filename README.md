@@ -24,7 +24,41 @@ Extrait de `oriq-secteur-notariat-juridique` :
 
 Chaque agent suit la même structure : l'organisation réelle du métier, les frictions, ce qui déclenche une décision, les contraintes réglementaires, les cas d'usage qui portent, et les garde-fous.
 
-## Installation
+## Utilisation
+
+Trois façons, de la plus simple à la plus complète. Commencez par la première, elle ne demande rien à installer.
+
+### 1. Sans rien installer, dans une conversation
+
+Marche avec Claude, ChatGPT, Gemini, Le Chat. Aucun compte particulier, aucun outil, aucune ligne de commande.
+
+1. Dans le tableau plus bas, cliquez sur le nom de l'agent qui correspond à votre sujet, par exemple `oriq-secteur-btp` pour le bâtiment.
+2. En haut à droite du fichier qui s'ouvre, cliquez sur le bouton **Copy raw file** (l'icône de deux feuilles superposées).
+3. Ouvrez une conversation avec votre assistant et collez.
+4. Juste en dessous, dans le même message, écrivez votre question. Par exemple : « Je veux mettre en place un assistant documentaire dans mon entreprise, par où commencer ? »
+
+L'assistant répondra avec la connaissance du secteur au lieu de généralités.
+
+### 2. Avec Claude Code
+
+Deux commandes à taper dans Claude Code :
+
+```
+/plugin marketplace add ORIQ-IA/agents-metiers-fr
+/plugin install agents-secteurs-fr@oriq
+```
+
+Trois plugins, installez ceux qui vous servent :
+
+| Plugin | Contenu |
+|---|---|
+| `agents-secteurs-fr` | Les 12 agents sectoriels |
+| `agents-fonctions-fr` | Les 10 agents par fonction d'entreprise |
+| `agents-transverses-fr` | Les 6 agents transverses, appelés par les deux autres |
+
+Les mises à jour arrivent ensuite toutes seules.
+
+### 3. Avec un autre outil, ou à la main
 
 ```bash
 git clone https://github.com/ORIQ-IA/agents-metiers-fr.git
@@ -32,13 +66,15 @@ cd agents-metiers-fr
 ./install.sh
 ```
 
-Le script copie les agents dans `~/.claude/agents/`. Pour un autre outil, les fichiers sont du Markdown avec un en-tête YAML, lisible par tout agent qui suit la convention `AGENTS.md`.
+Le script copie les agents dans `~/.claude/agents/`. Pour n'installer qu'un groupe : `./install.sh secteurs`.
 
-Installation d'un seul agent :
+Pour un seul agent, un fichier suffit :
 
 ```bash
-cp agents/secteurs/oriq-secteur-btp.md ~/.claude/agents/
+cp plugins/agents-secteurs-fr/agents/oriq-secteur-btp.md ~/.claude/agents/
 ```
+
+Les fichiers sont du Markdown avec un en-tête YAML, lisible par tout agent qui suit la convention `AGENTS.md` : Cursor, Codex, Gemini CLI, Aider, Windsurf et les autres.
 
 ## Les agents
 
@@ -46,44 +82,44 @@ cp agents/secteurs/oriq-secteur-btp.md ~/.claude/agents/
 
 | Agent | Couvre |
 |---|---|
-| `oriq-secteur-btp` | Bâtiment, travaux publics, artisanat |
-| `oriq-secteur-collectivites` | Communes, EPCI, bailleurs, organismes territoriaux |
-| `oriq-secteur-expertise-comptable` | Cabinets comptables et audit |
-| `oriq-secteur-formation-education` | Organismes de formation, enseignement |
-| `oriq-secteur-immobilier` | Transaction, gestion locative, syndic, promotion |
-| `oriq-secteur-industrie` | Production, qualité, maintenance |
-| `oriq-secteur-mutuelle-assurance` | Mutuelles, assurance de personnes, protection sociale |
-| `oriq-secteur-notariat-juridique` | Notariat, avocats, professions juridiques |
-| `oriq-secteur-retail-ecommerce` | Commerce, distribution, vente en ligne |
-| `oriq-secteur-sante` | Établissements de santé, médico-social |
-| `oriq-secteur-services-b2b` | Conseil, ingénierie, agences, ESN |
-| `oriq-secteur-transport-logistique` | Exploitation, supply chain |
+| [`oriq-secteur-btp`](plugins/agents-secteurs-fr/agents/oriq-secteur-btp.md) | Bâtiment, travaux publics, artisanat |
+| [`oriq-secteur-collectivites`](plugins/agents-secteurs-fr/agents/oriq-secteur-collectivites.md) | Communes, EPCI, bailleurs, organismes territoriaux |
+| [`oriq-secteur-expertise-comptable`](plugins/agents-secteurs-fr/agents/oriq-secteur-expertise-comptable.md) | Cabinets comptables et audit |
+| [`oriq-secteur-formation-education`](plugins/agents-secteurs-fr/agents/oriq-secteur-formation-education.md) | Organismes de formation, enseignement |
+| [`oriq-secteur-immobilier`](plugins/agents-secteurs-fr/agents/oriq-secteur-immobilier.md) | Transaction, gestion locative, syndic, promotion |
+| [`oriq-secteur-industrie`](plugins/agents-secteurs-fr/agents/oriq-secteur-industrie.md) | Production, qualité, maintenance |
+| [`oriq-secteur-mutuelle-assurance`](plugins/agents-secteurs-fr/agents/oriq-secteur-mutuelle-assurance.md) | Mutuelles, assurance de personnes, protection sociale |
+| [`oriq-secteur-notariat-juridique`](plugins/agents-secteurs-fr/agents/oriq-secteur-notariat-juridique.md) | Notariat, avocats, professions juridiques |
+| [`oriq-secteur-retail-ecommerce`](plugins/agents-secteurs-fr/agents/oriq-secteur-retail-ecommerce.md) | Commerce, distribution, vente en ligne |
+| [`oriq-secteur-sante`](plugins/agents-secteurs-fr/agents/oriq-secteur-sante.md) | Établissements de santé, médico-social |
+| [`oriq-secteur-services-b2b`](plugins/agents-secteurs-fr/agents/oriq-secteur-services-b2b.md) | Conseil, ingénierie, agences, ESN |
+| [`oriq-secteur-transport-logistique`](plugins/agents-secteurs-fr/agents/oriq-secteur-transport-logistique.md) | Exploitation, supply chain |
 
 ### Fonctions (10)
 
 | Agent | Couvre |
 |---|---|
-| `oriq-metier-achats` | Sourcing, consultations, contrats fournisseurs |
-| `oriq-metier-commercial` | Cycle de vente, saisie, préparation de rendez-vous |
-| `oriq-metier-direction-generale` | Arbitrages et langage d'un dirigeant |
-| `oriq-metier-dsi` | Exigences de sécurité, conditions d'acceptation d'un projet |
-| `oriq-metier-finance` | Clôture, contrôle de gestion, facturation, recouvrement |
-| `oriq-metier-juridique` | Contrats, conformité, contentieux |
-| `oriq-metier-marketing` | Production de contenu, mesure |
-| `oriq-metier-production-ops` | Planification, qualité, maintenance, terrain |
-| `oriq-metier-rh` | Recrutement, administration, formation |
-| `oriq-metier-service-client` | Volume, qualité de réponse, relation usager |
+| [`oriq-metier-achats`](plugins/agents-fonctions-fr/agents/oriq-metier-achats.md) | Sourcing, consultations, contrats fournisseurs |
+| [`oriq-metier-commercial`](plugins/agents-fonctions-fr/agents/oriq-metier-commercial.md) | Cycle de vente, saisie, préparation de rendez-vous |
+| [`oriq-metier-direction-generale`](plugins/agents-fonctions-fr/agents/oriq-metier-direction-generale.md) | Arbitrages et langage d'un dirigeant |
+| [`oriq-metier-dsi`](plugins/agents-fonctions-fr/agents/oriq-metier-dsi.md) | Exigences de sécurité, conditions d'acceptation d'un projet |
+| [`oriq-metier-finance`](plugins/agents-fonctions-fr/agents/oriq-metier-finance.md) | Clôture, contrôle de gestion, facturation, recouvrement |
+| [`oriq-metier-juridique`](plugins/agents-fonctions-fr/agents/oriq-metier-juridique.md) | Contrats, conformité, contentieux |
+| [`oriq-metier-marketing`](plugins/agents-fonctions-fr/agents/oriq-metier-marketing.md) | Production de contenu, mesure |
+| [`oriq-metier-production-ops`](plugins/agents-fonctions-fr/agents/oriq-metier-production-ops.md) | Planification, qualité, maintenance, terrain |
+| [`oriq-metier-rh`](plugins/agents-fonctions-fr/agents/oriq-metier-rh.md) | Recrutement, administration, formation |
+| [`oriq-metier-service-client`](plugins/agents-fonctions-fr/agents/oriq-metier-service-client.md) | Volume, qualité de réponse, relation usager |
 
 ### Transverses (6)
 
 | Agent | Couvre |
 |---|---|
-| `oriq-architecte-rag` | Ingestion, découpage, recherche, citation des sources |
-| `oriq-cyber-ia` | Injection par le contenu, fuite de données, cloisonnement |
-| `oriq-data-engineer` | Pipelines, qualité, modélisation |
-| `oriq-integration-api` | API, webhooks, synchronisation, gestion des pannes |
-| `oriq-rgpd` | Bases légales, minimisation, registre, droits des personnes |
-| `oriq-voix-ia` | Transcription, synthèse, interruption, conversation parlée |
+| [`oriq-architecte-rag`](plugins/agents-transverses-fr/agents/oriq-architecte-rag.md) | Ingestion, découpage, recherche, citation des sources |
+| [`oriq-cyber-ia`](plugins/agents-transverses-fr/agents/oriq-cyber-ia.md) | Injection par le contenu, fuite de données, cloisonnement |
+| [`oriq-data-engineer`](plugins/agents-transverses-fr/agents/oriq-data-engineer.md) | Pipelines, qualité, modélisation |
+| [`oriq-integration-api`](plugins/agents-transverses-fr/agents/oriq-integration-api.md) | API, webhooks, synchronisation, gestion des pannes |
+| [`oriq-rgpd`](plugins/agents-transverses-fr/agents/oriq-rgpd.md) | Bases légales, minimisation, registre, droits des personnes |
+| [`oriq-voix-ia`](plugins/agents-transverses-fr/agents/oriq-voix-ia.md) | Transcription, synthèse, interruption, conversation parlée |
 
 Les agents se renvoient la main entre eux. Le bloc « Relais » en fin de fichier indique lequel prendre ensuite.
 

@@ -1,0 +1,14 @@
+{
+  "name": "agents-transverses-fr",
+  "version": "1.0.0",
+  "description": "Six agents transverses appeles par les agents sectoriels : recherche augmentee et citation des sources, cybersecurite appliquee a l IA, ingenierie de la donnee, integration et connecteurs, RGPD, interfaces vocales. A installer avec l un des deux autres plugins, dont ils completent les renvois.",
+  "author": {
+    "name": "Oriq",
+    "url": "https://oriq.fr"
+  },
+  "repository": "https://github.com/ORIQ-IA/agents-metiers-fr",
+  "homepage": "https://github.com/ORIQ-IA/agents-metiers-fr/tree/main/plugins/agents-transverses-fr",
+  "license": "MIT",
+  "keywords": ["rag","rgpd","cybersecurite","donnees","integration","voix","souverainete"],
+  "agents": "./agents/"
+}

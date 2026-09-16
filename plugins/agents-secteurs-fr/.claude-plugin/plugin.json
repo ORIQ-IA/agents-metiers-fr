@@ -1,0 +1,14 @@
+{
+  "name": "agents-secteurs-fr",
+  "version": "1.0.0",
+  "description": "Douze agents qui documentent les secteurs d activite francais : batiment et travaux publics, collectivites territoriales, expertise comptable, formation, immobilier, industrie, mutuelle et assurance, notariat et professions juridiques, commerce et vente en ligne, sante et medico-social, services aux entreprises, transport et logistique. Chacun decrit l organisation reelle du secteur, ses frictions, ce qui declenche une decision, ses contraintes reglementaires et deontologiques, et les erreurs a ne pas commettre.",
+  "author": {
+    "name": "Oriq",
+    "url": "https://oriq.fr"
+  },
+  "repository": "https://github.com/ORIQ-IA/agents-metiers-fr",
+  "homepage": "https://github.com/ORIQ-IA/agents-metiers-fr/tree/main/plugins/agents-secteurs-fr",
+  "license": "MIT",
+  "keywords": ["secteurs","france","metiers","conformite","cas-usage-ia","btp","sante","notariat","assurance"],
+  "agents": "./agents/"
+}
