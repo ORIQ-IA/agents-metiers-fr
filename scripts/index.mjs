@@ -23,11 +23,14 @@ for (const [, plugin, genre] of GROUPES) {
     const texte = readFileSync(join(dir, nom), "utf8");
     const desc = texte.match(/^description: (.+)$/m);
     if (!desc) throw new Error(`description manquante : ${nom}`);
+    // Une description non citée qui contient « : » casse l'en-tête YAML (GitHub affiche alors une erreur).
+    if (!/^".*"$/.test(desc[1].trim())) throw new Error(`description à mettre entre guillemets : ${nom}`);
     agents.push({
       nom: nom.replace(/\.md$/, ""),
       genre,
       plugin,
-      description: desc[1].trim(),
+      // L'en-tête est du YAML : la description est entre guillemets, puisqu'elle contient « : ».
+      description: desc[1].trim().replace(/^"(.*)"$/, "$1").replace(/\\"/g, '"'),
       chemin: `${dir}/${nom}`.replaceAll("\\", "/"),
     });
   }

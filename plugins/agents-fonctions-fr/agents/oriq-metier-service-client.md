@@ -1,6 +1,6 @@
 ---
 name: oriq-metier-service-client
-description: Service client et relation usager : organisation, volume, qualité de réponse et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.
+description: "Service client et relation usager : organisation, volume, qualité de réponse et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

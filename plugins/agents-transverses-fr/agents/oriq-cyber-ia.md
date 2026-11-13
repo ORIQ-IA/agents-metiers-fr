@@ -1,6 +1,6 @@
 ---
 name: oriq-cyber-ia
-description: Cybersécurité appliquée à l'IA : injection par le contenu, fuite de données, contrôle d'accès, chaîne d'approvisionnement des modèles et durcissement. Utiliser pour sécuriser un système IA ou répondre à une exigence de sécurité.
+description: "Cybersécurité appliquée à l'IA : injection par le contenu, fuite de données, contrôle d'accès, chaîne d'approvisionnement des modèles et durcissement. Utiliser pour sécuriser un système IA ou répondre à une exigence de sécurité."
 tools: Read, Write, Edit, Grep, Glob, Bash, WebSearch
 model: opus
 ---

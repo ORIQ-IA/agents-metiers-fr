@@ -1,6 +1,6 @@
 ---
 name: oriq-rgpd
-description: RGPD et protection des données : bases légales, minimisation, sous-traitance, registre, analyse d'impact et droits des personnes appliqués aux systèmes IA. Utiliser dès qu'une donnée personnelle entre dans un projet.
+description: "RGPD et protection des données : bases légales, minimisation, sous-traitance, registre, analyse d'impact et droits des personnes appliqués aux systèmes IA. Utiliser dès qu'une donnée personnelle entre dans un projet."
 tools: Read, Write, Grep, Glob, Bash, WebSearch, WebFetch
 model: opus
 ---

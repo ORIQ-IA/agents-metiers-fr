@@ -1,6 +1,6 @@
 ---
 name: oriq-secteur-formation-education
-description: Formation professionnelle et enseignement : organismes, certification qualité, ingénierie pédagogique et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.
+description: "Formation professionnelle et enseignement : organismes, certification qualité, ingénierie pédagogique et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

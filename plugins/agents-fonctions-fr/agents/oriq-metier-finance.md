@@ -1,6 +1,6 @@
 ---
 name: oriq-metier-finance
-description: Finance et comptabilité : clôture, contrôle de gestion, facturation, recouvrement et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.
+description: "Finance et comptabilité : clôture, contrôle de gestion, facturation, recouvrement et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

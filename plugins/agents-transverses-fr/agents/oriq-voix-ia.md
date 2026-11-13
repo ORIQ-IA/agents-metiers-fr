@@ -1,6 +1,6 @@
 ---
 name: oriq-voix-ia
-description: Interfaces vocales : transcription, synthèse, interruption, correction et expérience de conversation parlée. Utiliser pour concevoir, corriger ou arbitrer une fonctionnalité vocale.
+description: "Interfaces vocales : transcription, synthèse, interruption, correction et expérience de conversation parlée. Utiliser pour concevoir, corriger ou arbitrer une fonctionnalité vocale."
 tools: Read, Write, Edit, Grep, Glob, Bash
 model: sonnet
 ---

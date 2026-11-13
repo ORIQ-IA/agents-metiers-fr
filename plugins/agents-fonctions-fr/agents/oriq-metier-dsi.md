@@ -1,6 +1,6 @@
 ---
 name: oriq-metier-dsi
-description: Direction des systèmes d'information : objections, exigences de sécurité et conditions d'acceptation d'un projet IA. Utiliser dès qu'une direction technique entre dans la boucle.
+description: "Direction des systèmes d'information : objections, exigences de sécurité et conditions d'acceptation d'un projet IA. Utiliser dès qu'une direction technique entre dans la boucle."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: opus
 ---

@@ -1,6 +1,6 @@
 ---
 name: oriq-secteur-expertise-comptable
-description: Cabinets d'expertise comptable et d'audit : organisation, saisonnalité, contraintes déontologiques et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.
+description: "Cabinets d'expertise comptable et d'audit : organisation, saisonnalité, contraintes déontologiques et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

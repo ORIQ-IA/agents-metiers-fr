@@ -1,6 +1,6 @@
 ---
 name: oriq-secteur-notariat-juridique
-description: Notariat, avocats et professions juridiques : organisation, frictions documentaires, contraintes déontologiques et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.
+description: "Notariat, avocats et professions juridiques : organisation, frictions documentaires, contraintes déontologiques et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

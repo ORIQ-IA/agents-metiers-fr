@@ -1,6 +1,6 @@
 ---
 name: oriq-metier-commercial
-description: Fonction commerciale : quotidien d'un vendeur, frictions de saisie et de préparation, cas d'usage IA pour la vente. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.
+description: "Fonction commerciale : quotidien d'un vendeur, frictions de saisie et de préparation, cas d'usage IA pour la vente. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

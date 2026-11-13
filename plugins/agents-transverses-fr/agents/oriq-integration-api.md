@@ -1,6 +1,6 @@
 ---
 name: oriq-integration-api
-description: Intégration et connecteurs : API, webhooks, authentification, synchronisation, gestion des limites et des pannes. Utiliser dès qu'il faut relier deux systèmes.
+description: "Intégration et connecteurs : API, webhooks, authentification, synchronisation, gestion des limites et des pannes. Utiliser dès qu'il faut relier deux systèmes."
 tools: Read, Write, Edit, Grep, Glob, Bash, WebSearch, WebFetch
 model: sonnet
 ---

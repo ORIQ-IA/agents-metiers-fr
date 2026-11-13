@@ -1,6 +1,6 @@
 ---
 name: oriq-secteur-sante
-description: Santé et médico-social : établissements, cabinets, contraintes sur les données de santé, frictions administratives et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.
+description: "Santé et médico-social : établissements, cabinets, contraintes sur les données de santé, frictions administratives et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

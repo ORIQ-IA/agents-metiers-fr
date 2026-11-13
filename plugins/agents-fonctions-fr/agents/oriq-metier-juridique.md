@@ -1,6 +1,6 @@
 ---
 name: oriq-metier-juridique
-description: Direction juridique interne : contrats, conformité, contentieux et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.
+description: "Direction juridique interne : contrats, conformité, contentieux et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

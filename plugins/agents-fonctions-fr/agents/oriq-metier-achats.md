@@ -1,6 +1,6 @@
 ---
 name: oriq-metier-achats
-description: Fonction achats et approvisionnement : sourcing, consultations, contrats fournisseurs et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.
+description: "Fonction achats et approvisionnement : sourcing, consultations, contrats fournisseurs et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

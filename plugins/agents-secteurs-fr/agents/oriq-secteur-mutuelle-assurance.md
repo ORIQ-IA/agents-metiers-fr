@@ -1,6 +1,6 @@
 ---
 name: oriq-secteur-mutuelle-assurance
-description: Mutuelles, assurance de personnes et protection sociale : métiers, vocabulaire, contraintes et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.
+description: "Mutuelles, assurance de personnes et protection sociale : métiers, vocabulaire, contraintes et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

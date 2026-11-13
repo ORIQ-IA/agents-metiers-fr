@@ -1,6 +1,6 @@
 ---
 name: oriq-secteur-services-b2b
-description: Services aux entreprises : conseil, ingénierie, agences, sociétés de services numériques. Frictions et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.
+description: "Services aux entreprises : conseil, ingénierie, agences, sociétés de services numériques. Frictions et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

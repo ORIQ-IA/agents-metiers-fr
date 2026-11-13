@@ -1,6 +1,6 @@
 ---
 name: oriq-metier-rh
-description: Ressources humaines : recrutement, administration, formation, cas d'usage IA sous forte contrainte réglementaire. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.
+description: "Ressources humaines : recrutement, administration, formation, cas d'usage IA sous forte contrainte réglementaire. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

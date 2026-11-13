@@ -1,6 +1,6 @@
 ---
 name: oriq-secteur-collectivites
-description: Secteur public local : communes, EPCI, bailleurs, organismes territoriaux. Contraintes de la commande publique, frictions et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.
+description: "Secteur public local : communes, EPCI, bailleurs, organismes territoriaux. Contraintes de la commande publique, frictions et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

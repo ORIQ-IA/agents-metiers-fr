@@ -1,6 +1,6 @@
 ---
 name: oriq-metier-direction-generale
-description: Direction générale : préoccupations d'un dirigeant, langage, arbitrages et cas d'usage IA au niveau direction. Utiliser pour préparer un échange avec un dirigeant ou concevoir pour la direction.
+description: "Direction générale : préoccupations d'un dirigeant, langage, arbitrages et cas d'usage IA au niveau direction. Utiliser pour préparer un échange avec un dirigeant ou concevoir pour la direction."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: opus
 ---

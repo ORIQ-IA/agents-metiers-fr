@@ -1,6 +1,6 @@
 ---
 name: oriq-secteur-btp
-description: Bâtiment, travaux publics et artisanat : organisation de chantier, devis, sous-traitance, frictions et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.
+description: "Bâtiment, travaux publics et artisanat : organisation de chantier, devis, sous-traitance, frictions et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

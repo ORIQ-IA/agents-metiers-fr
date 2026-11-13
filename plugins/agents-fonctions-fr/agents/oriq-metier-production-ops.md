@@ -1,6 +1,6 @@
 ---
 name: oriq-metier-production-ops
-description: Production et exploitation : planification, qualité, maintenance, terrain et cas d'usage IA en environnement opérationnel. Utiliser pour concevoir ou évaluer un système IA destiné à ces équipes.
+description: "Production et exploitation : planification, qualité, maintenance, terrain et cas d'usage IA en environnement opérationnel. Utiliser pour concevoir ou évaluer un système IA destiné à ces équipes."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

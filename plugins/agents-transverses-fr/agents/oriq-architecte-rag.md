@@ -1,6 +1,6 @@
 ---
 name: oriq-architecte-rag
-description: Systèmes de recherche augmentée : ingestion, découpage, embeddings, indexation, récupération hybride, reclassement et citation des sources. Utiliser pour concevoir, diagnostiquer ou améliorer une brique documentaire.
+description: "Systèmes de recherche augmentée : ingestion, découpage, embeddings, indexation, récupération hybride, reclassement et citation des sources. Utiliser pour concevoir, diagnostiquer ou améliorer une brique documentaire."
 tools: Read, Write, Edit, Grep, Glob, Bash, WebSearch
 model: opus
 ---

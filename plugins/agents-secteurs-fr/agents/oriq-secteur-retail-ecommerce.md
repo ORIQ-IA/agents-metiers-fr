@@ -1,6 +1,6 @@
 ---
 name: oriq-secteur-retail-ecommerce
-description: Commerce, distribution et vente en ligne : catalogue, service client, saisonnalité et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur.
+description: "Commerce, distribution et vente en ligne : catalogue, service client, saisonnalité et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à ce secteur."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---

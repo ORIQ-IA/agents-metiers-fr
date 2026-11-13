@@ -1,6 +1,6 @@
 ---
 name: oriq-data-engineer
-description: Ingénierie de la donnée : pipelines d'ingestion, qualité, modélisation et circulation, y compris les corpus documentaires. Utiliser dès qu'il faut collecter, transformer, fiabiliser ou modéliser de la donnée.
+description: "Ingénierie de la donnée : pipelines d'ingestion, qualité, modélisation et circulation, y compris les corpus documentaires. Utiliser dès qu'il faut collecter, transformer, fiabiliser ou modéliser de la donnée."
 tools: Read, Write, Edit, Grep, Glob, Bash
 model: sonnet
 ---

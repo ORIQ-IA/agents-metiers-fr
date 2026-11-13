@@ -1,6 +1,6 @@
 ---
 name: oriq-metier-marketing
-description: Direction marketing : organisation, production de contenu, mesure et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction.
+description: "Direction marketing : organisation, production de contenu, mesure et cas d'usage IA. Utiliser pour concevoir ou évaluer un système IA destiné à cette fonction."
 tools: Read, Write, Grep, Glob, WebSearch, WebFetch
 model: sonnet
 ---
