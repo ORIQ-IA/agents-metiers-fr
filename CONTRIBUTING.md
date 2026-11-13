@@ -26,5 +26,9 @@ cas d'usage qui font une bonne démonstration mais aucun gain réel. Tout ce qui
 
 ## Avant d'ouvrir une pull request
 
+L'en-tête de chaque agent est du YAML : la `description` s'écrit **entre guillemets**, puisqu'elle
+contient presque toujours « : ». Sans guillemets, GitHub affiche une erreur à la place de l'en-tête,
+et `node scripts/index.mjs` refuse de produire `agents.json`.
+
 Vérifiez que votre agent ne renvoie, dans son bloc `Relais`, que vers des agents présents dans ce
 dépôt. Un renvoi mort casse la chaîne.
